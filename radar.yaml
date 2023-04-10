@@ -1,64 +1,5 @@
 # Development tools
 
-### assess
-- name: Hocus
-  quadrant: Development Tools
-  ring: assess
-  isNew: 'FALSE'
-  description: |
-    Spin up ready-to-code, disposable dev environments on your own servers. Self-hosted alternative to Gitpod and Github Codespaces.
-    https://github.com/hocus-dev/hocus
-- name: Coder
-  quadrant: Development Tools
-  ring: assess
-  isNew: 'FALSE'
-  description: |
-    A tool that provisions remote development environments via Terraform 
-    https://github.com/coder/coder
-- name: Devbox
-  quadrant: Development Tools
-  ring: assess
-  isNew: 'FALSE'
-  description: |
-    Instant, easy, and predictable development environments 
-    https://github.com/jetpack-io/devbox
-- name: Plane
-  quadrant: Development Tools
-  ring: assess
-  isNew: 'FALSE'
-  description: |
-    Open Source JIRA, Linear and Height Alternative. Plane helps you track your issues, epics, and product roadmaps in the simplest way possible. 
-    https://github.com/makeplane/plane
-
-### trial
-- name: Onedev
-  quadrant: Development Tools
-  ring: trial
-  isNew: 'FALSE'
-  description: |
-    Self-hosted Git Server with CI/CD and Kanban
-    https://github.com/theonedev/onedev
-
-### staging-ready
-- name: Act
-  quadrant: Development Tools
-  ring: staging-ready
-  isNew: 'FALSE'
-  description: |
-    Run your GitHub Actions locally
-    https://github.com/nektos/act
-- name: Openblocks
-  quadrant: Development Tools
-  ring: staging-ready
-  isNew: 'FALSE'
-  description: |
-    Openblocks wants to take a step forward. More specifically, Openblocks is
-    - An all-in-one IDE to create internal or customer-facing apps.
-    - A place to create, build and share building blocks of web applications.
-    - A domain-specific language that UI-configurable block is the first-class citizen.
-    
-    https://github.com/openblocks-dev/openblocks
-
 ### production-ready
 - name: Act
   quadrant: Development Tools
@@ -96,16 +37,77 @@
     Concourse is a container-based continuous thing-doer written in Go. 
     https://github.com/concourse/concourse
 
+### staging-ready
+- name: Act
+  quadrant: Development Tools
+  ring: staging-ready
+  isNew: 'FALSE'
+  description: |
+    Run your GitHub Actions locally
+    https://github.com/nektos/act
+- name: Openblocks
+  quadrant: Development Tools
+  ring: staging-ready
+  isNew: 'FALSE'
+  description: |
+    Openblocks wants to take a step forward. More specifically, Openblocks is
+    - An all-in-one IDE to create internal or customer-facing apps.
+    - A place to create, build and share building blocks of web applications.
+    - A domain-specific language that UI-configurable block is the first-class citizen.
+    
+    https://github.com/openblocks-dev/openblocks
+
+### trial
+- name: Onedev
+  quadrant: Development Tools
+  ring: trial
+  isNew: 'FALSE'
+  description: |
+    Self-hosted Git Server with CI/CD and Kanban
+    https://github.com/theonedev/onedev
+
+### assess
+- name: Hocus
+  quadrant: Development Tools
+  ring: assess
+  isNew: 'FALSE'
+  description: |
+    Spin up ready-to-code, disposable dev environments on your own servers. Self-hosted alternative to Gitpod and Github Codespaces.
+    https://github.com/hocus-dev/hocus
+- name: Coder
+  quadrant: Development Tools
+  ring: assess
+  isNew: 'FALSE'
+  description: |
+    A tool that provisions remote development environments via Terraform 
+    https://github.com/coder/coder
+- name: Devbox
+  quadrant: Development Tools
+  ring: assess
+  isNew: 'FALSE'
+  description: |
+    Instant, easy, and predictable development environments 
+    https://github.com/jetpack-io/devbox
+- name: Plane
+  quadrant: Development Tools
+  ring: assess
+  isNew: 'FALSE'
+  description: |
+    Open Source JIRA, Linear and Height Alternative. Plane helps you track your issues, epics, and product roadmaps in the simplest way possible. 
+    https://github.com/makeplane/plane
+
+
+
 # Server/Cloud management
 - name: Server/Cloud management PLACEHOLDER
   quadrant: Server/Cloud management
   ring: trial
   isNew: 'FALSE'
   description: Lorem ipsum
-### assess
-### trial
-### staging-ready
 ### production-ready
+### staging-ready
+### trial
+### assess
 
 # Security
 - name: Security PLACEHOLDER
@@ -113,10 +115,10 @@
   ring: assess
   isNew: 'FALSE'
   description: Lorem ipsum
-### assess
-### trial
-### staging-ready
 ### production-ready
+### staging-ready
+### trial
+### assess
 
 # Observability
 - name: Observability PLACEHOLDER
@@ -124,7 +126,7 @@
   ring: production-ready
   isNew: 'FALSE'
   description: Lorem ipsum
-### assess
-### trial
-### staging-ready
 ### production-ready
+### staging-ready
+### trial
+### assess
