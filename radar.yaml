@@ -64,7 +64,7 @@
     issues in PostgreSQL</a>, and we encourage you to carefully assess it.</p>
 - name: AWS Backup Vault Lock
   ring: Trial
-  quadrant: Tools
+  quadrant: Test
   isNew: 'TRUE'
   description: <p>When implementing robust, secure and reliable disaster recovery,
     it’s necessary to ensure that backups can't be deleted or altered before their
@@ -76,7 +76,7 @@
     This has proved to be a valuable addition and fills a previously empty space.</p>
 - name: Databricks Overwatch
   ring: Assess
-  quadrant: Tools
+  quadrant: Test
   isNew: 'FALSE'
   description: <p><strong><a href="https://databrickslabs.github.io/overwatch/">Databricks
     Overwatch</a></strong> is a Databricks Labs project that enables teams to analyze
