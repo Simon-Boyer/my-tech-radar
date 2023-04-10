@@ -17,7 +17,9 @@ jobs:
           input: radar.yaml
           to: json
       - name: Write to file
-        run: echo "${{ steps.yaml2json.outputs.output }}" > radar.json
+        run: echo "$RADAR_JSON" > radar.json
+        env:
+          RADAR_JSON: ${{ steps.yaml2json.outputs.output }}
       - name: Publish
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
