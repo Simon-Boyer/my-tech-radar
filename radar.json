@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Act",
+    "quadrant": "Development Tools",
+    "ring": "production-ready",
+    "isNew": "FALSE",
+    "description": "Secure Backend Server for Web, Mobile & Flutter Developers. AKA the 100% open-source Firebase alternative. \nhttps://github.com/appwrite/appwrite\n"
+  },
+  {
+    "name": "Gitpod",
+    "quadrant": "Development Tools",
+    "ring": "production-ready",
+    "isNew": "FALSE",
+    "description": "Gitpod automates the provisioning of ready-to-code cloud development environments. \nhttps://github.com/gitpod-io/gitpod\n"
+  },
+  {
+    "name": "Pocketbase",
+    "quadrant": "Development Tools",
+    "ring": "production-ready",
+    "isNew": "FALSE",
+    "description": "Open Source realtime backend in 1 file\nhttps://github.com/pocketbase/pocketbase\n"
+  },
+  {
+    "name": "Tooljet",
+    "quadrant": "Development Tools",
+    "ring": "production-ready",
+    "isNew": "FALSE",
+    "description": "Extensible low-code framework for building business applications. Connect to databases, cloud storages, GraphQL, API endpoints, Airtable, etc and build apps using drag and drop application builder. Built using JavaScript/TypeScript.\nhttps://github.com/ToolJet/ToolJet\n"
+  },
+  {
+    "name": "Concourse",
+    "quadrant": "Development Tools",
+    "ring": "production-ready",
+    "isNew": "FALSE",
+    "description": "Concourse is a container-based continuous thing-doer written in Go. \nhttps://github.com/concourse/concourse\n"
+  },
+  {
+    "name": "Act",
+    "quadrant": "Development Tools",
+    "ring": "staging-ready",
+    "isNew": "FALSE",
+    "description": "Run your GitHub Actions locally\nhttps://github.com/nektos/act\n"
+  },
+  {
+    "name": "Openblocks",
+    "quadrant": "Development Tools",
+    "ring": "staging-ready",
+    "isNew": "FALSE",
+    "description": "Openblocks wants to take a step forward. More specifically, Openblocks is\n- An all-in-one IDE to create internal or customer-facing apps.\n- A place to create, build and share building blocks of web applications.\n- A domain-specific language that UI-configurable block is the first-class citizen.\n\nhttps://github.com/openblocks-dev/openblocks\n"
+  },
+  {
+    "name": "Onedev",
+    "quadrant": "Development Tools",
+    "ring": "trial",
+    "isNew": "FALSE",
+    "description": "Self-hosted Git Server with CI/CD and Kanban\nhttps://github.com/theonedev/onedev\n"
+  },
+  {
+    "name": "Hocus",
+    "quadrant": "Development Tools",
+    "ring": "assess",
+    "isNew": "FALSE",
+    "description": "Spin up ready-to-code, disposable dev environments on your own servers. Self-hosted alternative to Gitpod and Github Codespaces.\nhttps://github.com/hocus-dev/hocus\n"
+  },
+  {
+    "name": "Coder",
+    "quadrant": "Development Tools",
+    "ring": "assess",
+    "isNew": "FALSE",
+    "description": "A tool that provisions remote development environments via Terraform \nhttps://github.com/coder/coder\n"
+  },
+  {
+    "name": "Devbox",
+    "quadrant": "Development Tools",
+    "ring": "assess",
+    "isNew": "FALSE",
+    "description": "Instant, easy, and predictable development environments \nhttps://github.com/jetpack-io/devbox\n"
+  },
+  {
+    "name": "Plane",
+    "quadrant": "Development Tools",
+    "ring": "assess",
+    "isNew": "FALSE",
+    "description": "Open Source JIRA, Linear and Height Alternative. Plane helps you track your issues, epics, and product roadmaps in the simplest way possible. \nhttps://github.com/makeplane/plane\n"
+  },
+  {
+    "name": "Server/Cloud management PLACEHOLDER",
+    "quadrant": "Server/Cloud management",
+    "ring": "trial",
+    "isNew": "FALSE",
+    "description": "Lorem ipsum"
+  },
+  {
+    "name": "Security PLACEHOLDER",
+    "quadrant": "Security",
+    "ring": "assess",
+    "isNew": "FALSE",
+    "description": "Lorem ipsum"
+  },
+  {
+    "name": "Observability PLACEHOLDER",
+    "quadrant": "Observability",
+    "ring": "production-ready",
+    "isNew": "FALSE",
+    "description": "Lorem ipsum"
+  }
+]
