@@ -1,0 +1,27 @@
+on:
+    push:
+      branches:
+        - main
+
+jobs:
+  publish-yaml-to-sjon:
+    name: Publish yaml to JSON in package
+    runs-on: Linux
+    steps:
+      - uses: actions/checkout@v3
+      - id: yaml2json
+        name: Convert yaml
+        uses: fabasoad/data-format-converter-action@v0.1.7
+        with:
+          from: yaml
+          input: radar.yaml
+          to: json
+      - name: Write to file
+        run: echo "${{ steps.yaml2json.outputs.output }}" > radar.json
+      - name: Publish
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add radar.json
+          git commit -m "[BOT] Updated JSON version"
+          git push -f origin HEAD:refs/tags/json
