@@ -620,7 +620,7 @@
     to maintain data quality, and we encourage you to assess Soda Core.</p>
 - name: Teller
   ring: Assess
-  quadrant: Techniques
+  quadrant: Salut
   isNew: 'TRUE'
   description: <p><strong><a href="https://github.com/tellerops/teller">Teller</a></strong>
     is an open-source universal secret manager for developers that ensures the correct
